@@ -3,3 +3,9 @@ The project deals with conversions of different expressions - infix, prefix and 
 It consists of 6 interconversions between these expressions which are implemented using stack and its different functions. 
 Also, stack is displayed at each step to show its proper working. 
 In addition to it, to check if the input string is correct, it is parsed and the Parse tree for the same is generated and printed as output. 
+
+## Run using following command: 
+lex cd.l
+yacc -d cd.y
+gcc y.tab.c
+./a.out
