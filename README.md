@@ -8,4 +8,4 @@ In addition to it, to check if the input string is correct, it is parsed and the
 1. lex cd.l <br />
 2. yacc -d cd.y <br />
 3. gcc y.tab.c <br />
-4. ./a.out
+4.  ./a.out
