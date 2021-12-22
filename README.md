@@ -5,7 +5,7 @@ Also, stack is displayed at each step to show its proper working.
 In addition to it, to check if the input string is correct, it is parsed and the Parse tree for the same is generated and printed as output. 
 
 ## Run using following command: 
-lex cd.l --
-yacc -d cd.y -- 
-gcc y.tab.c --
+lex cd.l <br />
+yacc -d cd.y <br />
+gcc y.tab.c <br />
 ./a.out
